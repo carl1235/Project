@@ -24,11 +24,11 @@ int main(){
     Vertex *vd4 = new Vertex(4,"Edmonton");
     Vertex *vd5 = new Vertex(5, "Quebec City");
     
-    Vertex *vd11 = new Vertex(1,"Montreal");
-    Vertex *vd21 = new Vertex(2,"Toronto");
-    Vertex *vd31 = new Vertex(3,"Ottawa");
-    Vertex *vd41 = new Vertex(4,"Edmonton");
-    Vertex *vd51 = new Vertex(5, "Quebec City");
+    Vertex *vd11 = new Vertex(6,"New York");
+    Vertex *vd21 = new Vertex(7,"Los Angeles");
+    Vertex *vd31 = new Vertex(8,"Florida");
+    Vertex *vd41 = new Vertex(9,"Texas");
+    Vertex *vd51 = new Vertex(10, "Chicago");
     
     Dag->addVertex(vd1);
     Dag->addVertex(vd2);

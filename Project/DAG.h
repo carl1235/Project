@@ -351,7 +351,7 @@ public:
                
                sum->addVertex(it->endVertex());
                sum->addVertex(it->startVertex());
-               sum->addEdge(*it);
+//               sum->addEdge(*it);
 
          }
      }
@@ -371,7 +371,7 @@ public:
           }
                 sum->addVertex(it2->endVertex());
                 sum->addVertex(it2->startVertex());
-                sum->addEdge(*it2);
+//                sum->addEdge(*it2);
           }
           }
         
