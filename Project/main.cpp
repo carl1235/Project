@@ -6,8 +6,6 @@
 #include "Edge.h"
 #include "Graph.h"
 #include "Vertex.h"
-#include "DirectedGraph.h"
-#include "UndirectedGraph.h"
 #include "DAG.h"
 
 using namespace std;

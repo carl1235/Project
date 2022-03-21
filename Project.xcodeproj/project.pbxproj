@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C39F88D327DAD68E000EC643 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C39F88D227DAD68E000EC643 /* main.cpp */; };
+		C3DD1B3527E81C700020225D /* Vertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3DD1B3427E81C700020225D /* Vertex.cpp */; };
+		C3DD1B3727E81C7E0020225D /* DAG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3DD1B3627E81C7E0020225D /* DAG.cpp */; };
+		C3DD1B3927E81C870020225D /* Edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3DD1B3827E81C870020225D /* Edge.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +32,9 @@
 		C39F88DC27DADB9C000EC643 /* Edge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
 		C39F88DE27DADBFE000EC643 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
 		C39F88DF27DADC62000EC643 /* Vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
-		C39F88E027DADC9E000EC643 /* DirectedGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectedGraph.h; sourceTree = "<group>"; };
-		C39F88E127DADF01000EC643 /* UndirectedGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UndirectedGraph.h; sourceTree = "<group>"; };
+		C3DD1B3427E81C700020225D /* Vertex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vertex.cpp; sourceTree = "<group>"; };
+		C3DD1B3627E81C7E0020225D /* DAG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DAG.cpp; sourceTree = "<group>"; };
+		C3DD1B3827E81C870020225D /* Edge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Edge.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +69,12 @@
 			children = (
 				C39F88D227DAD68E000EC643 /* main.cpp */,
 				C39F88DE27DADBFE000EC643 /* Graph.h */,
-				C39F88E027DADC9E000EC643 /* DirectedGraph.h */,
-				C39F88E127DADF01000EC643 /* UndirectedGraph.h */,
 				C39F88DF27DADC62000EC643 /* Vertex.h */,
+				C3DD1B3427E81C700020225D /* Vertex.cpp */,
 				C39F88DC27DADB9C000EC643 /* Edge.h */,
+				C3DD1B3827E81C870020225D /* Edge.cpp */,
 				C3518E6B27E02DBC008E2764 /* DAG.h */,
+				C3DD1B3627E81C7E0020225D /* DAG.cpp */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -131,7 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DD1B3727E81C7E0020225D /* DAG.cpp in Sources */,
 				C39F88D327DAD68E000EC643 /* main.cpp in Sources */,
+				C3DD1B3927E81C870020225D /* Edge.cpp in Sources */,
+				C3DD1B3527E81C700020225D /* Vertex.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
